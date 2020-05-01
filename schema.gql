@@ -16,3 +16,8 @@ type Condominium {
   id: ID!
   cnpj: String!
 }
+
+type Street {
+  id: ID!
+  name: String!
+}
