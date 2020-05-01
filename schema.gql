@@ -23,4 +23,5 @@ type Street {
   new: Float!
   abc: Float!
   abcd: Float!
+  abcde: Float!
 }
