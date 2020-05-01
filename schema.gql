@@ -1,0 +1,13 @@
+type Apartment {
+  id: ID!
+  totalArea: Float!
+  identifier: Int!
+  privateArea: Float!
+  building: Building @relation(name: "BUILDING_APARTMENTS", direction: "IN")
+}
+
+type Building {
+  id: ID!
+  name: String!
+  apartments: [Apartment!]! @relation(name: "BUILDING_APARTMENTS", direction: "OUT")
+}
