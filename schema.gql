@@ -11,3 +11,8 @@ type Building {
   name: String!
   apartments: [Apartment!]! @relation(name: "BUILDING_APARTMENTS", direction: "OUT")
 }
+
+type Condominium {
+  id: ID!
+  cnpj: String!
+}
