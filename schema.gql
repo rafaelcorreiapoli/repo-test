@@ -22,4 +22,5 @@ type Street {
   name: String!
   new: Float!
   abc: Float!
+  abcd: Float!
 }
