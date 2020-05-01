@@ -21,4 +21,5 @@ type Street {
   id: ID!
   name: String!
   new: Float!
+  abc: Float!
 }
